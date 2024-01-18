@@ -34,15 +34,16 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 <h3 id="run-server">Run server</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>提供预览服务</p>
 <h3 id="generate-static-files">Generate static files</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 <h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<h3 id="简写分别是">简写分别是</h3>
+<h3 id="abbreviation">Abbreviation</h3>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo s </span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d </span><br></pre></td></tr></table></figure>
-<h3 id="如果你要删除文件">如果你要删除文件</h3>
-<p>在删除markdown后，记得删掉.deploy_git，然后执行</p>
+<h3 id="if-you-wanna-delete-a-markdown-page">If you wanna delete a
+markdown page</h3>
+<p>Please remember to delete the
+folder📂<strong>.deploy_git</strong>，then run the code below</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
@@ -50,22 +51,6 @@
       </categories>
       <tags>
         <tag>文件操作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于Next主题</title>
-    <url>/2024/01/19/%E5%85%B3%E4%BA%8ENext%E4%B8%BB%E9%A2%98/</url>
-    <content><![CDATA[<p>关于next主题我的一些想法</p>
-<p>正如你所见，现在的小站是以Hexo框架下的Next主题为基本模板搭建起来的
-在尝试了不下五种主题的配置后，我幡然醒悟：
-建立这个小站的目的最终还是一个实用性为主，过度的追求华丽精巧似乎事与愿违
-<span id="more"></span>
-现在是2024/1/19的凌晨4：01，正是我删掉了在2个小时之前视若珍宝的A4主题以及Fulid主题的时刻，我下定了决心，今后一切改动还是在Next框架下进行，否在将会有大量的时间耗费在无意义的阅读配置文档，修改参数，又或者是像咬咬所说，“你好像在玩公主换装游戏，你所做的事情不过是在查查攻略，然后看怎么给小公主换装”</p>
-<p>很对啊，看到别人华丽的网页特效当然很心动，但是我觉的现在应该花更多的时间在学习新知识的过程中，而不是对着用户手册调参数的时候</p>
-<p>所以今天就到此位置吧，这个Next主题其实还有很多地方等着我去开发呢</p>
-]]></content>
-      <tags>
-        <tag>next主题</tag>
       </tags>
   </entry>
   <entry>
@@ -83,6 +68,30 @@
       </categories>
       <tags>
         <tag>果蝇行为决策</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于Next主题</title>
+    <url>/2024/01/19/%E5%85%B3%E4%BA%8ENext%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[<p>关于next主题我的一些想法</p>
+<p>正如你所见，现在的小站是以Hexo框架下的Next主题为基本模板搭建起来的<br />
+在尝试了不下五种主题的配置后，我幡然醒悟：</p>
+<p>建立这个小站的目的最终还是一个实用性为主，过度的追求华丽精巧似乎事与愿违</p>
+<span id="more"></span>
+<p>现在是2024/1/19的凌晨4：01，正是我删掉了在2个小时之前视若珍宝的A4主题以及Fulid主题的时刻，我下定了决心，今后一切改动还是在Next框架下进行，否在将会有大量的时间耗费在无意义的阅读配置文档，修改参数，又或者是像某位哲人所说：</p>
+<blockquote>
+“你好像<strong>在玩公主换装游戏</strong>，你所做的事情不过是在<strong>查查攻略</strong>，然后看怎么给小公主<strong>换装</strong>”<br />
+
+<p align="right">
+-- 咬咬
+</p>
+</blockquote>
+<p>很对啊，看到别人华丽的网页特效确实很心动，在几个小时之前我还在为让皮卡丘头像转圈圈而感到无比的激动，然后不断地看别人的Blog网站，看别人的代码，但这么几个无意义的小时过去后，我删掉重来的主题不下三个，算上昨天，前天，一共是有四五个完整的网站主题文件被我配置完，然后觉得不好看，扔掉了。</p>
+<p>美丽的主页，华丽的动画，交互确实很精彩，会让人眼前一亮，但是我觉的现在应该花更多的时间在学习新知识的过程中，而不是对着用户手册调参数的时候</p>
+<p>所以今天就到此为止吧，明天好好休整，准备开始学数据结构基础啦，不过话说到底，其实就算是这个Next主题还有很多地方等着我去开发呢，他的潜力一定比我想象中更强大</p>
+]]></content>
+      <tags>
+        <tag>next主题</tag>
       </tags>
   </entry>
   <entry>
