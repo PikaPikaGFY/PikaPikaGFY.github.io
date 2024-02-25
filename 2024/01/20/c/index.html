@@ -24,7 +24,7 @@
 <meta property="og:description" content="在这里补充我所不知道的C语言坑点">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-01-20T12:23:29.000Z">
-<meta property="article:modified_time" content="2024-01-21T00:11:45.330Z">
+<meta property="article:modified_time" content="2024-02-25T03:47:53.666Z">
 <meta property="article:author" content="PikaPikaGFY">
 <meta property="article:tag" content="C语言">
 <meta name="twitter:card" content="summary_large_image">
@@ -304,7 +304,7 @@
               <p id="updated-time" class="note note-danger" style="display: none">
                 
                   
-                    本文最后更新于 2024-01-21T08:11:45+08:00
+                    本文最后更新于 2024-02-25T11:47:53+08:00
                   
                   
 
@@ -318,7 +318,7 @@
 <span id="more"></span>
 <h1>C的自带函数</h1>
 <h2 id="Scanf-函数相关">Scanf(  )函数相关</h2>
-<p>**简介：**scanf()函数是通过终端格式化输入函数，它从标准输入设备（键盘）读取输入信息。可以读入任何固有类型的数据并自动把数值转变成适当的机内格式。</p>
+<p>**简介：**scanf()函数是通过终端格式化输入函数，它从标准输入设备（键盘）读取输入信息。可以读入任何固有类型的数据并自动把数值转变成适当的机内格式。<strong>其返回值是成功读取的变量个数</strong></p>
 <ol>
 <li>当使用&quot;%d%d%d&quot;这种输入格式时，输入可以是一个空格或者多个空格、tab键、回车键分割。输出都是正确的</li>
 <li>“%d,%d,%d&quot;格式与”%d%d%d&quot;格式基本相同，不同之处在&quot;%d,%d,%d&quot;这种格式在输入时“，”一定要紧跟输入的数字，作为分隔符时以&quot;%d,&quot;为单位进行格式化读取，其他字符同理</li>
@@ -434,7 +434,8 @@ a<span class="token operator">=</span><span class="token number">0</span><span c
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div></figure>
 <p>这个程序输入<code>100</code>，它是会等你输入第二个<code>scanf()</code>的，并且会忽略之后的空格，</p>
 <p><strong>但是，当控制字符串不是以格式控制符 %d、%c、%f 等开头时，空白符就不能忽略了，它会参与匹配过程，如果匹配失败，就意味着 scanf() 读取失败了。</strong></p>
-<p>所以相当于</p>
+<h1>Malloc（）函数</h1>
+<p>C 库函数 <strong>void *malloc(size_t size)</strong> 分配所需的内存空间，并<strong>返回一个指向它的指针</strong>。</p>
 
                 
               </div>
