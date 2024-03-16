@@ -16,24 +16,23 @@
   <meta name="author" content="PikaPikaGFY">
   <meta name="keywords" content="">
   
-    <meta name="description" content="c语言环境搭建时出现的问题">
+    <meta name="description" content="R C Vp-p V V平均 Vp Kf Kp     750 470 0.4 13.8 13.8 14 1 1.014493   3000 470 0.6 15.65 15.65 16 1 1.022364   750 100 3.6 13.92 13.88 15.8 1.002882 1.135057   3000 100 0.6 16.14 16.13 16.4 1.00062 1.0">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C语言环境搭建">
-<meta property="og:url" content="http://pikapikagfy.github.io/2024/03/05/C-0/index.html">
+<meta property="og:title" content="PikaPikaGFY">
+<meta property="og:url" content="http://pikapikagfy.github.io/2024/03/15/computational-neuroscience/CN/index.html">
 <meta property="og:site_name" content="PikaPikaGFY">
-<meta property="og:description" content="c语言环境搭建时出现的问题">
+<meta property="og:description" content="R C Vp-p V V平均 Vp Kf Kp     750 470 0.4 13.8 13.8 14 1 1.014493   3000 470 0.6 15.65 15.65 16 1 1.022364   750 100 3.6 13.92 13.88 15.8 1.002882 1.135057   3000 100 0.6 16.14 16.13 16.4 1.00062 1.0">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-03-05T02:17:57.000Z">
-<meta property="article:modified_time" content="2024-03-05T04:01:38.738Z">
+<meta property="article:published_time" content="2024-03-15T06:19:02.815Z">
+<meta property="article:modified_time" content="2024-03-15T12:07:18.206Z">
 <meta property="article:author" content="PikaPikaGFY">
-<meta property="article:tag" content="C语言">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>C语言环境搭建 - PikaPikaGFY</title>
+  <title>PikaPikaGFY</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -215,7 +214,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="C语言环境搭建"></span>
+            <span id="subtitle" data-typed-text=""></span>
           
         </div>
 
@@ -231,8 +230,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-03-05 10:17" pubdate>
-          2024年3月5日 上午
+        <time datetime="2024-03-15 14:19" pubdate>
+          2024年3月15日 下午
         </time>
       </span>
     
@@ -243,7 +242,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          741 字
+          130 字
         
       </span>
     
@@ -254,7 +253,7 @@
         
         
         
-          7 分钟
+          2 分钟
         
       </span>
     
@@ -299,12 +298,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">C语言环境搭建</h1>
+            <h1 id="seo-header"></h1>
             
               <p id="updated-time" class="note note-danger" style="display: none">
                 
                   
-                    本文最后更新于 2024-03-05T12:01:38+08:00
+                    本文最后更新于 2024-03-15T20:07:18+08:00
                   
                   
 
@@ -314,102 +313,208 @@
             
               <div class="markdown-body">
                 
-                <p>c语言环境搭建时出现的问题</p>
-<span id="more"></span>
-<h1>C语言环境搭建</h1>
-<p><strong>由于CSDN上出现较多的复制粘贴怪，导致在较新的VScode版本下，有些设置的名称明明已经更换，但是还是按照老版本的在复制粘贴所谓的“回答”，更有将不同人的答案拼接在一起的复制融合怪。今天就来解决这个问题。</strong></p>
-<p>在此将json文件详细注释，便于调整个人的参数</p>
-<h2 id="1-报错为launch-program-workspaceRoot-EXEslbinary-conversion-exe’-does-not-exist">1 报错为launch: program &quot;{workspaceRoot}EXEslbinary conversion.exe’ does not exist</h2>
-<p><strong>大致出现的问题就是launch.json输出的是.out文件，而task.json运行的是.exe文件，那确实是不存在这个文件的，所以会报错</strong></p>
-<p>在进行初始化时，task.json我们可以直接让他自动生成：</p>
-<p><strong>首先，在”Terminal“菜单下点击”Configure Tasks…”子菜单。在随后出现的弹出框中选择“C/C++:gcc.exe生成活动文件”</strong></p>
-<p>若随后的弹出框中没有<strong>C/C++:gcc.exe生成活动文件</strong>，则检查你的mingW64是不是在配置环境变量时没加<strong>末尾的slash</strong></p>
-<p>like：D:\VScode\mingw64\bin（×），</p>
-<p>​          D:\VScode\mingw64\bin\（√）</p>
-<p><strong>然后再按下<code>F5</code>就可以以同样的方法自动配置launch.json</strong>，为了避免每次调试都要选择”Debugger”，我们再“Run”-&gt;“Add Configuration…”</p>
-<figure><div class="code-wrapper"><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token comment">//launch.json</span>
-<span class="token punctuation">&#123;</span>
-    <span class="token comment">// 使用 IntelliSense 了解相关属性。 </span>
-    <span class="token comment">// 悬停以查看现有属性的描述。</span>
-    <span class="token comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span>
-    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"0.2.0"</span><span class="token punctuation">,</span>
-    <span class="token property">"configurations"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">&#123;</span>
-            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"MyLaunch"</span><span class="token punctuation">,</span>              <span class="token comment">//  强制：就一个名字而已，但是是必须要有的（取任意自己喜欢的名字即可）</span>
-            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"cppdbg"</span><span class="token punctuation">,</span>                    <span class="token comment">//  强制：调试器的类型，Node debugger for  node, php for PHP , go for GO (C语言就固定是cppdbg)           </span>
-            <span class="token property">"request"</span><span class="token operator">:</span> <span class="token string">"launch"</span><span class="token punctuation">,</span>                 <span class="token comment">//  强制：launch/attach</span>
-            <span class="token property">"program"</span><span class="token operator">:</span> <span class="token string">"$&#123;workspaceFolder&#125;/$&#123;fileBasenameNoExtension&#125;.exe"</span><span class="token punctuation">,</span> <span class="token comment">// 可执行文件的路径 （根据实际情况调整需与tasks.json中的-o输出文件一致）</span>
-            <span class="token property">"miDebuggerPath"</span><span class="token operator">:</span> <span class="token string">"D:\\VScode\\mingw64\\bin\\gdb.exe"</span><span class="token punctuation">,</span>    <span class="token comment">//  强制：调试器的位置（特别注意：根据实际情况调整，且代表的是gdb.exe调试器程序的位置而不是编译器gcc.exe的位置。）</span>
-            <span class="token property">"preLaunchTask"</span><span class="token operator">:</span> <span class="token string">"C/C++: gcc.exe 生成活动文件"</span><span class="token punctuation">,</span>             <span class="token comment">//  调试前编译任务名称</span>
-            <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>                          <span class="token comment">//  调试参数</span>
-            <span class="token property">"stopAtEntry"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-            <span class="token property">"cwd"</span><span class="token operator">:</span> <span class="token string">"$&#123;workspaceFolder&#125;"</span><span class="token punctuation">,</span>         <span class="token comment">//  当前工作目录</span>
-            <span class="token property">"environment"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>                   <span class="token comment">//  当前项目环境变量</span>
-            <span class="token property">"externalConsole"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-            <span class="token property">"MIMode"</span><span class="token operator">:</span> <span class="token string">"gdb"</span><span class="token punctuation">,</span>                     <span class="token comment">//  调试器模式/类型</span>
-            <span class="token property">"setupCommands"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token punctuation">&#123;</span>
-                    <span class="token property">"description"</span><span class="token operator">:</span> <span class="token string">"Enable pretty-printing for gdb"</span><span class="token punctuation">,</span>
-                    <span class="token property">"text"</span><span class="token operator">:</span> <span class="token string">"-enable-pretty-printing"</span><span class="token punctuation">,</span>
-                    <span class="token property">"ignoreFailures"</span><span class="token operator">:</span> <span class="token boolean">true</span>
-                <span class="token punctuation">&#125;</span>
-            <span class="token punctuation">]</span>
-        <span class="token punctuation">&#125;</span>
-    <span class="token punctuation">]</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div></figure>
-<p>只要将二者协调起来就可以了</p>
-<figure><div class="code-wrapper"><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token comment">//task.json</span>
-<span class="token punctuation">&#123;</span>
-    <span class="token property">"version"</span><span class="token operator">:</span> <span class="token string">"2.0.0"</span><span class="token punctuation">,</span>
-    <span class="token property">"tasks"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">&#123;</span>
-            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"cppbuild"</span><span class="token punctuation">,</span>
-            <span class="token property">"label"</span><span class="token operator">:</span> <span class="token string">"C/C++: gcc.exe build active file"</span><span class="token punctuation">,</span>
-            <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"D:\\VScode\\mingw64\\bin\\gcc.exe"</span><span class="token punctuation">,</span>
-            <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"-fdiagnostics-color=always"</span><span class="token punctuation">,</span>
-                <span class="token string">"-g"</span><span class="token punctuation">,</span>
-                <span class="token string">"$&#123;file&#125;"</span><span class="token punctuation">,</span>
-                <span class="token string">"-o"</span><span class="token punctuation">,</span>
-                <span class="token string">"$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe"</span> <span class="token comment">//就是这里</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">"options"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
-                <span class="token property">"cwd"</span><span class="token operator">:</span> <span class="token string">"$&#123;fileDirname&#125;"</span>
-            <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
-            <span class="token property">"problemMatcher"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"$gcc"</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">"group"</span><span class="token operator">:</span> <span class="token string">"build"</span><span class="token punctuation">,</span>
-            <span class="token property">"detail"</span><span class="token operator">:</span> <span class="token string">"compiler: \"D:\\VScode\\mingw64\\bin\\gcc.exe\""</span>
-        <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
-        <span class="token punctuation">&#123;</span>
-            <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"cppbuild"</span><span class="token punctuation">,</span>
-            <span class="token property">"label"</span><span class="token operator">:</span> <span class="token string">"C/C++: gcc.exe 生成活动文件"</span><span class="token punctuation">,</span>
-            <span class="token property">"command"</span><span class="token operator">:</span> <span class="token string">"D:\\VScode\\mingw64\\bin\\gcc.exe"</span><span class="token punctuation">,</span>
-            <span class="token property">"args"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"-fdiagnostics-color=always"</span><span class="token punctuation">,</span>
-                <span class="token string">"-g"</span><span class="token punctuation">,</span>
-                <span class="token string">"$&#123;file&#125;"</span><span class="token punctuation">,</span>
-                <span class="token string">"-o"</span><span class="token punctuation">,</span>
-                <span class="token string">"$&#123;fileDirname&#125;\\$&#123;fileBasenameNoExtension&#125;.exe"</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">"options"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
-                <span class="token property">"cwd"</span><span class="token operator">:</span> <span class="token string">"$&#123;fileDirname&#125;"</span>
-            <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
-            <span class="token property">"problemMatcher"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-                <span class="token string">"$gcc"</span>
-            <span class="token punctuation">]</span><span class="token punctuation">,</span>
-            <span class="token property">"group"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
-                <span class="token property">"kind"</span><span class="token operator">:</span> <span class="token string">"build"</span><span class="token punctuation">,</span>
-                <span class="token property">"isDefault"</span><span class="token operator">:</span> <span class="token boolean">true</span>
-            <span class="token punctuation">&#125;</span><span class="token punctuation">,</span>
-            <span class="token property">"detail"</span><span class="token operator">:</span> <span class="token string">"调试器生成的任务。"</span>
-        <span class="token punctuation">&#125;</span>
-    <span class="token punctuation">]</span>
-<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div></figure>
-<p>注意，我们的gcc编译器地址要正确</p>
-<p class="katex-block "><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow></mrow><annotation encoding="application/x-tex">
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"></span></span></span></p>
+                <table>
+<thead>
+<tr>
+<th>R</th>
+<th>C</th>
+<th>Vp-p</th>
+<th>V</th>
+<th>V平均</th>
+<th>Vp</th>
+<th>Kf</th>
+<th>Kp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>750</td>
+<td>470</td>
+<td>0.4</td>
+<td>13.8</td>
+<td>13.8</td>
+<td>14</td>
+<td>1</td>
+<td>1.014493</td>
+</tr>
+<tr>
+<td>3000</td>
+<td>470</td>
+<td>0.6</td>
+<td>15.65</td>
+<td>15.65</td>
+<td>16</td>
+<td>1</td>
+<td>1.022364</td>
+</tr>
+<tr>
+<td>750</td>
+<td>100</td>
+<td>3.6</td>
+<td>13.92</td>
+<td>13.88</td>
+<td>15.8</td>
+<td>1.002882</td>
+<td>1.135057</td>
+</tr>
+<tr>
+<td>3000</td>
+<td>100</td>
+<td>0.6</td>
+<td>16.14</td>
+<td>16.13</td>
+<td>16.4</td>
+<td>1.00062</td>
+<td>1.016109</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>输入电压有效值（V）</th>
+<th>输出电压平均值（V）</th>
+<th>输出电压平均值的理论值（V）</th>
+<th>百分偏差</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>半波整流</td>
+<td>12.33</td>
+<td>4.884</td>
+<td>5.549</td>
+<td>11.98</td>
+</tr>
+<tr>
+<td>全波整流</td>
+<td>12.44</td>
+<td>4.891</td>
+<td>5.598</td>
+<td>12.63</td>
+</tr>
+<tr>
+<td>桥式整流</td>
+<td>12.37</td>
+<td>9.627</td>
+<td>11.13</td>
+<td>13.5</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>R</th>
+<th>C</th>
+<th>Vp-p</th>
+<th>V</th>
+<th>V平均</th>
+<th>Vp</th>
+<th>Kf</th>
+<th>Kp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>750</td>
+<td>470</td>
+<td>0.45</td>
+<td>7.565</td>
+<td>7.564</td>
+<td>7.796</td>
+<td>1.000132</td>
+<td>1.030535</td>
+</tr>
+<tr>
+<td>3000</td>
+<td>470</td>
+<td>0.6</td>
+<td>7.804</td>
+<td>7.802</td>
+<td>8.2</td>
+<td>1.000256</td>
+<td>1.050743</td>
+</tr>
+<tr>
+<td>750</td>
+<td>100</td>
+<td>1.8</td>
+<td>7.408</td>
+<td>7.401</td>
+<td>7.944</td>
+<td>1.000946</td>
+<td>1.072354</td>
+</tr>
+<tr>
+<td>3000</td>
+<td>100</td>
+<td>0.6</td>
+<td>7.964</td>
+<td>7.6</td>
+<td>8.2</td>
+<td>1.047895</td>
+<td>1.029633</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>R</th>
+<th>C</th>
+<th>Vp-p</th>
+<th>V</th>
+<th>V平均</th>
+<th>Vp</th>
+<th>Kf</th>
+<th>Kp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>750</td>
+<td>470</td>
+<td>0.4</td>
+<td>14.01</td>
+<td>14.01</td>
+<td>14.2</td>
+<td>1</td>
+<td>1.013562</td>
+</tr>
+<tr>
+<td>3000</td>
+<td>470</td>
+<td>0.6</td>
+<td>14.76</td>
+<td>14.76</td>
+<td>15</td>
+<td>1</td>
+<td>1.01626</td>
+</tr>
+<tr>
+<td>750</td>
+<td>100</td>
+<td>0.6</td>
+<td>15.1</td>
+<td>15.1</td>
+<td>15.4</td>
+<td>1</td>
+<td>1.019868</td>
+</tr>
+<tr>
+<td>3000</td>
+<td>100</td>
+<td>0.6</td>
+<td>15.1</td>
+<td>15.1</td>
+<td>15.4</td>
+<td>1</td>
+<td>1.019868</td>
+</tr>
+</tbody>
+</table>
 
                 
               </div>
@@ -418,34 +523,6 @@
             <div>
               <div class="post-metas my-3">
   
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/tutorial/" class="category-chain-item">tutorial</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/C%E8%AF%AD%E8%A8%80/" class="print-no-link">#C语言</a>
-      
-    </div>
   
 </div>
 
@@ -455,8 +532,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>C语言环境搭建</div>
-      <div>http://pikapikagfy.github.io/2024/03/05/C-0/</div>
+      <div></div>
+      <div>http://pikapikagfy.github.io/2024/03/15/computational-neuroscience/CN/</div>
     </div>
     <div class="license-meta">
       
@@ -468,7 +545,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年3月5日</div>
+          <div>2024年3月15日</div>
         </div>
       
       
@@ -500,18 +577,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/03/06/fds-hw1/" title="fds-hw1">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">fds-hw1</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/02/28/homework/" title="作业">
-                        <span class="hidden-mobile">作业</span>
+                      <a href="/2024/03/15/computational-neuroscience/" title="computational_neuroscience">
+                        <span class="hidden-mobile">computational_neuroscience</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
