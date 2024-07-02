@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>实验范式的建立</title>
+    <link href="/2024/05/19/%E5%AE%9E%E9%AA%8C%E8%8C%83%E5%BC%8F%E5%BB%BA%E7%AB%8B/"/>
+    <url>/2024/05/19/%E5%AE%9E%E9%AA%8C%E8%8C%83%E5%BC%8F%E5%BB%BA%E7%AB%8B/</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="3749795e569b730a47714d2a2aa3b48c01296df296737267468a0c4219547e0c">b867493abe2a7819f04f38935eda37bfef0e8ede14af26f73171140a33fad091c8c0f4c98678b7b83c7e5dd61405152e2cb0c9238afc627e6808c3c444b2ae7b9fb62b2dc7fd5b2c027d5b1084b01c4d256af1773874061b01b3192a097d851dfce36ab93f2eddf6e93274892e1edb858f8bcac79d30d246110ffabf2591e8a4f4448c5d829ba778b8b3d81fb36a099677abca69050fe563948780d258569c5d9cc59c3975ce7417b8758c9ba059a83c</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">The surname of the laboratory mentor</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <categories>
+      
+      <category>实验室</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>实验室</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>数据结构复习</title>
     <link href="/2024/04/22/FDSreview/"/>
     <url>/2024/04/22/FDSreview/</url>
@@ -327,7 +352,7 @@
     <link href="/2024/01/23/me/"/>
     <url>/2024/01/23/me/</url>
     
-    <content type="html"><![CDATA[<p>我最近在做的事情</p><span id="more"></span><p><strong>我感到这个学期是一个非常好的能改变我外语认知的学期，要利用好这个学期</strong></p><p>目前在做的研究方向为：</p><ol><li>果蝇幼虫在水环境下的运动模式决策</li><li>睡眠脑电分析</li></ol><p>我目前的困境：</p><ol><li>数据分析能力不足</li><li>行为学量化能力不足</li></ol><p>其他：</p><ol><li>搭建求生班级网站<a href="http://qiushibio.github.io">qiushibio</a></li><li>学习FDS</li></ol><p>决定先学FDS吧，可能会相对好接受一点<br>发现一个很好的计算神经学习网站：<br><a href="https://compneuro.neuromatch.io/tutorials/intro.html">啦啦</a></p><p>以及一个绘图教程</p><p><a href="https://www.zhihu.com/tardis/bd/art/139052035?source_id=1001">python draw</a></p>]]></content>
+    <content type="html"><![CDATA[<p>我最近在做的事情</p><span id="more"></span><p><strong>要花时间配配女朋友啊，你个沙币</strong></p><p><s>我感到这个学期是一个非常好的能改变我外语认知的学期，要利用好这个学期</s></p><p>然鹅我上个学期并没有认真在学英语，还是太懒了。</p><p>目前在做的研究方向为：</p><ol><li>果蝇幼虫在水环境下的运动模式决策</li><li><s>睡眠脑电分析</s>（不做了）</li></ol><p>我目前的困境：</p><ol><li>数据分析能力不足</li><li>行为学量化能力不足</li><li>杂七杂八的事情弄得太多了，失去了主心骨</li></ol><p>其他：<br>学学计算神经学习的入门：<a href="https://compneuro.neuromatch.io/tutorials/intro.html">Neuromatch</a></p><p>以及一个绘图教程：<a href="https://www.zhihu.com/tardis/bd/art/139052035?source_id=1001">python draw</a></p><p>暑假要成稿一篇《水母及仿生软体机器人》的科普文</p>]]></content>
     
     
     
